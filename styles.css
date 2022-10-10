@@ -8,7 +8,7 @@
 
 /* NAVIGATION MENU */
 .navbar {
-  background-image:#141414;
+  background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/background.jpeg);
   height: 80px;
   display: flex;
   justify-content: center;
@@ -189,7 +189,7 @@
 .banner {
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpeg);
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/background.jpeg);
   background-size: cover;
   background-position: center;
 }
@@ -202,7 +202,6 @@
   text-align: center;
   color: #fff;
   justify-content: center;
-
 }
 
 .content h1 {
@@ -214,6 +213,7 @@
   margin: 20px auto;
   font-weight: 100;
   line-height: 25px;
+  padding: 1rem;
 }
 
 .row {
@@ -230,8 +230,44 @@
   margin-top: 200px;
 }
 
+.col-4 img:hover {
+  transition: all 0.3s ease;
+
+}
+.col-4 a {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  text-decoration: none;
+}
+
 .col-4 img{
   width: 100%;
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 5rem;
+}
+
+.col-4 img{
+  width: 300px;
+  height: 400px;
+  max-width: 100%;
+  padding-bottom: 5rem;
+}
+
+
+.content h9{
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+  font-size: 25px;
+  padding-bottom: 3rem;
+
+}
+
+.categories {
+  padding-top: 20rem;
+  background:
 }
 
 
@@ -319,7 +355,6 @@ padding: 0 50px;
 
 .main__btn:hover:after {
   width: 100%;
-
 }
 
 .main__img--container {
@@ -417,19 +452,20 @@ z-index: 999;
 
 }
 
-h1, h3 {
+ h1, h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "Catamaran";
-    color: #ff8177
-    margin: 0;
+    font-family: "sans-serif";
+
 }
 
 h1 {
     font-size: 4rem;
     padding-top: 4vh;
     height: 10vh;
+    color: #fff;
+
 }
 h3 {
     font-size: 1.8rem;
@@ -446,13 +482,13 @@ h3 {
     justify-content: center;
 }
 
-.chart#chart8 {
+.chart#Chart1 {
     overflow: scroll;
 }
-.chart#chart14 {
+.chart#Chart2 {
     overflow: scroll;
 }
-.chart#chart18 {
+.chart#Chart3 {
     overflow: scroll;
 }
 .chart#chart19 {
@@ -462,7 +498,17 @@ body {
     background: #141414;
 }
 
-.container {
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 220px;
+    overflow: auto;
+    margin-bottom: 10vh;
+}
+.container2 {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -526,9 +572,8 @@ body {
         background-color: rgb(100,100,100);
         padding: .5px;
         border-radius: 4px;
-
     }
-/*On Hover Color Change*/
+
     #myBtn:hover {
         background-color: #7dbbf1;
     }

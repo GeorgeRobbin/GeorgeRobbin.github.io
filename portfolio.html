@@ -81,8 +81,8 @@
         </nav>
 
 
-<section class="container">
-  <h1 id="w1"></h1>
+<section class="container1">
+  <h1 id="w1">Week 1</h1>
         <div class="card">
           <div class="category" style="color: #54bbb8e;">
             <span>
@@ -102,20 +102,51 @@
             <div class="chart" id="Chart2"></div>
             <p>Graph taken from Rapidcharts.io. Data from the ONS measuring long-term UK productivity and hosted in CSV format on Github. </p>
         </div>
+
+<section class="container2">
+  <h1 id="w2">Week 2</h1>
+         <div class="card">
+          <div class="category" style="color: #54bbb8e;">
+            <span>
+              <span style="color: #c0000a;" class="tag">Week 2 - First original chart</span>
+            </span>
+          </div>
+              <div class="chart" id="Chart3"></div>
+              <p>Data presents the total IMF credit outstanding for all members from 1984 - 2022. </p>
+         </div>
+        <div class="card">
+         <div class="category" style="color: #54bbb8e;">
+           <span>
+             <span style="color: #c0000a;" class="tag">Week 2 - Correcting FT Chart </span>
+           </span>
+         </div>
+             <div class="chart" id="Chart4"></div>
+             <p> </p>
+       </div>
+
+       <h1 id="w3"></h1>
+       <h1 id="w4"></h1>
+       <h1 id="w5"></h1>
+       <h1 id="w6"></h1>
+       <h1 id="w7"></h1>
+       <h1 id="w8"></h1>
+       <h1 id="w9"></h1>
+       <h1 id="w10"></h1>
+
+
+
+
+
       </div>
 
-<h1 id="w2"></h1>
 
 
 
-<h1 id="w3"></h1>
-<h1 id="w4"></h1>
-<h1 id="w5"></h1>
-<h1 id="w6"></h1>
-<h1 id="w7"></h1>
-<h1 id="w8"></h1>
-<h1 id="w9"></h1>
-<h1 id="w10"></h1>
+
+
+
+
+
 
 
 
@@ -124,9 +155,13 @@
         //Define charts:
         var myChart1 = "chartFootball1.json";
         var myChart2 = "chartcrypto5.json";
+        var myChart3 = "IMF_total_outstanding.json";
+        var myChart4 = "IMF_total_outstanding_GDP.json";
 
         // Embed charts:
         vegaEmbed('#Chart1', myChart1);
         vegaEmbed('#Chart2', myChart2);
+        vegaEmbed('#Chart3', myChart3);
+        vegaEmbed('#Chart4', myChart4);
         </script>
         <script src="apps.js" ></script>
