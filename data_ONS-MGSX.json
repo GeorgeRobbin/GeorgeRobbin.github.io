@@ -1,11 +1,4 @@
 {
-    "description": {
-        "cdid": "MGSX",
-        "contact": {
-            "email": "labour.market@ons.gov.uk",
-            "name": "Debra Leaker",
-            "telephone": "+44 1633 455400"
-        },
         "datasetId": "LMS",
         "datasetUri": "/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/datasets/labourmarketstatistics",
         "date": "2022 JUL",
