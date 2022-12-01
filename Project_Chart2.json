@@ -10,14 +10,11 @@
     "y": {
       "field": "House Price Annual % Change", 
       "type": "quantitative",
-      "axis":{"labels":true}}
+      "axis":{"labels":true}},
+    "tooltip":{"field": "Date", "type": "temporal"}
+  
+  
+  
   },
-  
-    
-    
-  
-      
-            
-
   
 }
