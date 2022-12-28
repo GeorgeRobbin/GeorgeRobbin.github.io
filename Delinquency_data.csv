@@ -1,0 +1,472 @@
+Name,id,2008-01,2020-08,2022-06
+Baldwin County,1,2.8,0.9,0.8
+Jefferson County,2,5.1,1.4,1.7
+Lee County,3,3.8,0.8,1
+Madison County,4,3.5,1,0.9
+Mobile County,5,5,1.9,2.2
+Montgomery County,6,6,1.7,1.6
+Shelby County,7,3,0.9,0.6
+Tuscaloosa County,8,3.9,1,1.5
+Anchorage Municipality,9,2.8,1,1
+Maricopa County,10,3.7,0.7,0.6
+Mohave County,11,2.4,0.6,0.8
+Pima County,12,3,1,1
+Pinal County,13,4.7,1,0.9
+Yavapai County,14,2.3,0.4,0.3
+Yuma County,15,4.2,1.8,1.4
+Benton County,16,3,1,1.1
+Pulaski County,17,5,1.2,1.7
+Saline County,18,2.6,0.7,0.8
+Washington County,19,3.9,1.2,1
+Alameda County,20,2.3,0.4,0.3
+Butte County,21,2.5,0.9,0.6
+Contra Costa County,22,2.9,0.4,0.4
+El Dorado County,23,1.5,0.7,0.4
+Fresno County,24,4.2,0.9,0.8
+Kern County,25,4.6,1,1.2
+Los Angeles County,26,3,0.6,0.5
+Marin County,27,1.1,0.5,0.2
+Merced County,28,4.9,1.1,1.2
+Monterey County,29,3,0.5,0.5
+Napa County,30,2.1,0.3,0.2
+Orange County,31,2.2,0.4,0.4
+Placer County,32,2,0.2,0.1
+Riverside County,33,4.8,0.8,0.8
+Sacramento County,34,3.6,0.6,0.6
+San Bernardino County,35,5.3,0.9,0.9
+San Diego County,36,2.4,0.5,0.4
+San Francisco County,37,0.8,0.2,0.2
+San Joaquin County,38,5.2,0.7,0.9
+San Luis Obispo County,39,1.3,0.4,0.3
+San Mateo County,40,1.6,0.3,0.1
+Santa Barbara County,41,2.2,0.6,0.4
+Santa Clara County,42,1.8,0.3,0.3
+Santa Cruz County,43,1.7,0.5,0.2
+Shasta County,44,2.8,0.3,0.8
+Solano County,45,4.1,0.4,0.8
+Sonoma County,46,1.9,0.3,0.3
+Stanislaus County,47,5,0.7,1
+Tulare County,48,4.2,0.9,1.4
+Ventura County,49,2.3,0.5,0.5
+Yolo County,50,1.9,0.4,0.2
+Adams County,51,4.8,1,1.1
+Arapahoe County,52,2.8,0.5,0.6
+Boulder County,53,1.3,0.2,0.2
+Denver County,54,3.3,0.5,0.4
+Douglas County,55,1.8,0.3,0.5
+El Paso County,56,2.8,0.9,0.7
+Jefferson County,57,2.2,0.5,0.5
+Larimer County,58,1.8,0.4,0.1
+Mesa County,59,2.9,0.9,1.2
+Pueblo County,60,4.4,1.4,1.6
+Weld County,61,3.1,1.2,1
+Fairfield County,62,2.3,0.8,0.7
+Hartford County,63,3,1,1.3
+Litchfield County,64,2.6,1.5,1.2
+Middlesex County,65,2.6,1.3,0.8
+New Haven County,66,3.6,1.3,1
+New London County,67,2.7,1.1,1
+Tolland County,68,2.4,1.4,0.7
+Kent County,69,2.8,1.4,1.8
+New Castle County,70,3.6,1,1.4
+Sussex County,71,2.4,0.8,0.6
+District of Columbia,72,2.8,0.6,0.7
+Alachua County,73,3,1.2,1.1
+Bay County,74,3,1,0.5
+Brevard County,75,3.6,0.7,0.8
+Broward County,76,4.9,1,0.9
+Charlotte County,77,3.7,0.6,0.6
+Clay County,78,3.7,1.2,0.9
+Collier County,79,3.1,0.8,0.7
+Duval County,80,4.9,1.1,1
+Escambia County,81,4.2,1,0.8
+Hernando County,82,4.8,1.1,1.4
+Hillsborough County,83,4.4,1,1
+Indian River County,84,4.6,0.9,1.1
+Lake County,85,4.3,0.9,1
+Lee County,86,4.6,0.8,0.8
+Leon County,87,3.3,0.8,0.9
+Manatee County,88,4.2,0.8,0.7
+Marion County,89,4.2,1.5,1.6
+Martin County,90,3.2,0.9,0.3
+Miami-Dade County,91,5.4,0.9,0.9
+Okaloosa County,92,2.5,0.7,1
+Orange County,93,5,0.8,1
+Osceola County,94,6.2,0.8,1.2
+Palm Beach County,95,3.9,0.7,0.7
+Pasco County,96,4.8,0.7,0.9
+Pinellas County,97,3.6,0.8,0.6
+Polk County,98,5,1.2,1.2
+St. Johns County,99,2.2,0.2,0.5
+St. Lucie County,100,5.4,1.7,1
+Santa Rosa County,101,3.6,1,1.2
+Sarasota County,102,3.1,0.5,0.6
+Seminole County,103,3.9,0.5,0.7
+Volusia County,104,4.5,0.8,1.3
+Chatham County,105,4,1.3,1.3
+Cherokee County,106,2.6,0.7,0.5
+Clayton County,107,8.3,1.7,2.3
+Cobb County,108,4.1,0.8,0.7
+Columbia County,109,3,0.8,1
+Coweta County,110,3.6,0.6,0.7
+DeKalb County,111,5.8,1,1
+Douglas County,112,5.8,2.1,1.9
+Fayette County,113,3.3,0.7,0.3
+Forsyth County,114,2.2,0.4,0.5
+Fulton County,115,3.9,0.8,0.8
+Gwinnett County,116,4.9,0.8,1
+Hall County,117,4.5,1.1,1.3
+Henry County,118,6.8,2,2.2
+Houston County,119,3.6,1,1.1
+Muscogee County,120,3.8,1.4,0.9
+Paulding County,121,6.6,1.5,1.2
+Richmond County,122,6.3,1.7,1.4
+Hawaii County,123,2.5,0.7,0.5
+Honolulu County,124,1.7,0.3,0.5
+Maui County,125,2.1,0.7,0.5
+Ada County,126,2.1,0.5,0.3
+Canyon County,127,3.9,0.9,0.7
+Kootenai County,128,2.5,0.9,0.6
+Champaign County,129,2.9,0.9,1.3
+Cook County,130,3.5,0.9,0.9
+DuPage County,131,1.8,0.7,0.5
+Kane County,132,2.9,0.9,1
+Kendall County,133,3,1,1
+Lake County,134,2.6,0.7,0.7
+McHenry County,135,3.4,0.9,1
+McLean County,136,2.1,0.8,0.7
+Madison County,137,3.9,1.1,1
+Peoria County,138,3.4,1.4,1.2
+Rock Island County,139,3.3,1.3,1
+St. Clair County,140,4.4,1.3,1
+Sangamon County,141,2.1,1.2,1.1
+Tazewell County,142,2.2,1.5,1.2
+Will County,143,3.9,1.2,1.3
+Winnebago County,144,3.8,1.3,1.4
+Allen County,145,3.8,1.5,1.2
+Elkhart County,146,6.1,1.4,1.5
+Hamilton County,147,1.9,0.8,0.5
+Hendricks County,148,3.4,1.2,0.8
+Johnson County,149,4.2,1,0.5
+Lake County,150,4.5,1.2,1.3
+Marion County,151,5.4,1.1,1
+Porter County,152,2.6,1.2,1.3
+St. Joseph County,153,4.8,0.7,1.8
+Tippecanoe County,154,2.2,0.8,1.1
+Vanderburgh County,155,3.7,1.5,1.5
+Johnson County,156,1.7,0.8,0.5
+Linn County,157,2.3,0.7,1
+Polk County,158,3.3,0.9,1.1
+Scott County,159,2.8,0.7,1.2
+Johnson County,160,1.6,0.5,0.5
+Sedgwick County,161,3.3,1.1,0.9
+Shawnee County,162,3.8,1,0.7
+Wyandotte County,163,8,1.7,2.4
+Boone County,164,3.8,1,0.6
+Fayette County,165,3.2,0.8,0.7
+Jefferson County,166,3.7,1,0.9
+Kenton County,167,3.9,0.7,0.6
+Bossier Parish,168,3.9,1.6,1.4
+Caddo Parish,169,5.2,2.1,2.3
+Calcasieu Parish,170,3.6,1.4,1.7
+East Baton Rouge Parish,171,4.8,1.5,1.8
+Jefferson Parish,172,4.2,1.3,1.5
+Lafayette Parish,173,3.1,1.7,1.4
+Livingston Parish,174,5.4,2.4,2.6
+Orleans Parish,175,3.5,1.4,1.3
+St. Tammany Parish,176,2,1.2,1
+Cumberland County,177,2.6,0.9,0.7
+Penobscot County,178,4.2,1.1,1.2
+York County,179,3.7,1.1,1.2
+Anne Arundel County,180,2.7,0.8,0.8
+Baltimore County,181,3.6,1.2,1.4
+Calvert County,182,2.5,1.4,0.8
+Carroll County,183,2,0.2,0.6
+Charles County,184,4.1,1.4,1.6
+Frederick County,185,2.6,0.7,0.9
+Harford County,186,3,1.1,0.9
+Howard County,187,1.8,0.5,0.7
+Montgomery County,188,2.1,0.4,0.5
+Prince George's County,189,5.3,1.6,1.5
+St. Mary's County,190,3.2,0.8,0.8
+Washington County,191,3.5,1.2,1
+Baltimore city,192,5.8,1.7,1.9
+Barnstable County,193,2.4,0.9,0.8
+Berkshire County,194,3.3,1.4,0.9
+Bristol County,195,3.9,1.3,0.9
+Essex County,196,3,0.7,0.6
+Hampden County,197,4.1,1.7,1.2
+Hampshire County,198,2.7,1.1,0.4
+Middlesex County,199,2.1,0.5,0.5
+Norfolk County,200,2.5,0.5,0.6
+Plymouth County,201,4.5,1.2,0.7
+Suffolk County,202,3.4,0.7,0.7
+Worcester County,203,3.3,1.1,1.1
+Berrien County,204,3.7,1.5,1.1
+Eaton County,205,3.9,1.2,0.9
+Genesee County,206,6,1.4,1.3
+Ingham County,207,4.5,0.9,1
+Jackson County,208,4.1,1,1.5
+Kalamazoo County,209,3.8,1,1.1
+Kent County,210,3.7,0.8,0.9
+Livingston County,211,3.6,0.7,0.5
+Macomb County,212,4.2,0.8,0.9
+Monroe County,213,5.1,1.2,1.3
+Muskegon County,214,6.5,1.7,1.8
+Oakland County,215,3.5,0.6,0.7
+Ottawa County,216,3,0.4,0.9
+Saginaw County,217,5.2,0.5,1.9
+St. Clair County,218,4.4,1.6,1.7
+Washtenaw County,219,2.6,0.5,0.9
+Wayne County,220,7.1,1.1,1.2
+Anoka County,221,2.7,0.6,0.8
+Carver County,222,2.5,0.3,0.4
+Dakota County,223,2.3,0.3,0.5
+Hennepin County,224,2.4,0.6,0.5
+Olmsted County,225,1.9,0.6,0.5
+Ramsey County,226,2.4,0.7,0.5
+St. Louis County,227,3.1,0.8,0.8
+Scott County,228,2.2,0.3,0.8
+Stearns County,229,2.2,0.6,0.7
+Washington County,230,1.8,0.7,0.3
+Wright County,231,3.3,0.6,0.8
+DeSoto County,232,4.4,1.4,1.7
+Harrison County,233,3.9,1.8,1.8
+Hinds County,234,6.8,2.2,3.1
+Rankin County,235,3.8,1.9,1.4
+Boone County,236,1.9,0.5,0.8
+Clay County,237,3,1.2,1.4
+Greene County,238,2.7,0.8,0.8
+Jackson County,239,4.7,1.2,1.1
+Jefferson County,240,3.8,1.4,1.3
+St. Charles County,241,2.4,0.8,0.7
+St. Louis County,242,3.9,1.1,1.1
+St. Louis city,243,7.7,1.1,1.3
+Yellowstone County,244,1.7,0.8,0.4
+Douglas County,245,2.8,0.9,0.6
+Lancaster County,246,2.2,0.8,0.5
+Sarpy County,247,1.8,0.6,0.7
+Clark County,248,4.3,0.6,0.6
+Washoe County,249,3.2,0.3,0.7
+Hillsborough County,250,2.8,1.2,0.8
+Merrimack County,251,3.7,0.7,1.1
+Rockingham County,252,3.1,0.7,1
+Strafford County,253,4.2,1.3,1
+Atlantic County,254,3.4,1.7,1.1
+Bergen County,255,1.8,0.8,0.7
+Burlington County,256,3.5,1.1,1.6
+Camden County,257,4.2,1.5,1.5
+Cape May County,258,2.5,0.7,0.6
+Essex County,259,4.3,1.1,1.1
+Gloucester County,260,3.9,1.3,1.2
+Hudson County,261,3.5,0.8,0.7
+Hunterdon County,262,1.7,0.4,0.7
+Mercer County,263,2.6,0.7,1.1
+Middlesex County,264,2.7,0.9,0.8
+Monmouth County,265,2.1,0.9,0.8
+Morris County,266,1.4,0.6,0.7
+Ocean County,267,3.4,1.2,1.1
+Passaic County,268,3.8,0.8,1
+Somerset County,269,1.6,0.3,0.6
+Sussex County,270,3.2,1.2,1.5
+Union County,271,3.5,1.3,1.2
+Bernalillo County,272,2.7,1.1,1.1
+Dona Ana County,273,2.6,1.3,1.1
+Sandoval County,274,3.7,1,1.4
+Santa Fe County,275,1.8,0.7,0.5
+Albany County,276,2.6,1.1,1
+Bronx County,277,4.1,1.2,1.1
+Broome County,278,3.3,0.6,1.1
+Dutchess County,279,3.3,1.2,0.9
+Erie County,280,3.4,1.1,1.1
+Kings County,281,3.4,0.7,0.8
+Monroe County,282,3.1,0.8,1.1
+Nassau County,283,2.8,0.9,0.7
+New York County,284,1.2,0.4,0.4
+Niagara County,285,3.1,0.9,1.2
+Oneida County,286,4.3,1.2,1
+Onondaga County,287,3.9,1.1,1.4
+Orange County,288,4,1.2,0.8
+Queens County,289,3.4,1,0.9
+Rensselaer County,290,3.3,1.6,0.7
+Richmond County,291,2.3,0.8,0.8
+Rockland County,292,2.6,1.3,0.7
+Saratoga County,293,2.7,0.8,0.8
+Schenectady County,294,3.6,0.8,1.4
+Suffolk County,295,3.7,1,1
+Ulster County,296,3.4,1.1,0.9
+Westchester County,297,2,0.7,0.6
+Alamance County,298,4.7,1.5,1.5
+Brunswick County,299,3.1,1.2,1
+Buncombe County,300,2.9,0.8,0.5
+Cabarrus County,301,3.8,1.5,1.1
+Catawba County,302,3.7,1.4,1.9
+Cumberland County,303,4,1.2,1.2
+Davidson County,304,4.6,1.7,1.7
+Durham County,305,3.6,0.8,0.4
+Forsyth County,306,4.1,1.4,1.6
+Gaston County,307,5.7,1.7,1.5
+Guilford County,308,3.9,1,1.3
+Iredell County,309,4.2,1.3,0.9
+Johnston County,310,4.6,0.6,1
+Mecklenburg County,311,3.8,0.8,0.7
+New Hanover County,312,2.5,0.7,0.8
+Onslow County,313,3,1.4,1.5
+Pitt County,314,3.3,1.8,1
+Union County,315,4,1,0.9
+Wake County,316,2.7,0.6,0.5
+Cass County,317,1.7,0.6,0.7
+Butler County,318,4.3,0.6,0.6
+Clermont County,319,3.2,0.7,1.3
+Cuyahoga County,320,4.1,1.1,1.4
+Delaware County,321,1.9,0.5,0.2
+Fairfield County,322,4.9,1.3,1
+Franklin County,323,3.7,0.8,0.7
+Greene County,324,3.2,1,0.8
+Hamilton County,325,4.2,0.9,1
+Lake County,326,2.8,0.9,1.2
+Licking County,327,4,0.6,1
+Lorain County,328,4,1,0.9
+Lucas County,329,4.8,1.3,1.1
+Mahoning County,330,3.8,1.3,0.7
+Medina County,331,2.8,0.8,0.9
+Montgomery County,332,3.8,1,1.2
+Portage County,333,3.5,0.7,1.2
+Stark County,334,3.4,1.5,1.2
+Summit County,335,3.4,1.2,1.1
+Trumbull County,336,4,1,1.4
+Warren County,337,2.8,0.6,0.8
+Canadian County,338,3.1,1,1.8
+Cleveland County,339,2.6,1.3,0.9
+Oklahoma County,340,3.7,1.3,1
+Tulsa County,341,3.8,1.3,1.2
+Clackamas County,342,2,0.4,0.2
+Deschutes County,343,1.5,0.5,0.4
+Jackson County,344,2.1,0.6,0.2
+Lane County,345,1.8,0.6,0.4
+Marion County,346,2.6,0.6,0.7
+Multnomah County,347,2,0.3,0.5
+Washington County,348,1.4,0.4,0.2
+Allegheny County,349,4.1,1.1,1.2
+Beaver County,350,4.6,1,1.1
+Berks County,351,3.6,1.6,1.2
+Bucks County,352,2.5,1,0.7
+Butler County,353,2.6,0.9,0.7
+Chester County,354,2,0.8,0.6
+Cumberland County,355,2.5,0.8,0.8
+Dauphin County,356,3.5,1.3,0.9
+Delaware County,357,3.6,1.2,1.4
+Erie County,358,3.6,1.1,1.5
+Franklin County,359,3,1.5,1.9
+Lackawanna County,360,4.3,1.2,1.4
+Lancaster County,361,2.7,1.1,0.8
+Lebanon County,362,3.6,1.3,1
+Lehigh County,363,3.9,0.8,1.6
+Luzerne County,364,5.1,1.4,1.4
+Monroe County,365,4.8,1.6,2
+Montgomery County,366,2.1,0.9,0.8
+Northampton County,367,2.9,1.1,1.1
+Philadelphia County,368,6.2,1.9,2.1
+Washington County,369,5.1,1.8,1.5
+Westmoreland County,370,3.7,1.6,1.5
+York County,371,3.4,1.2,1.3
+Kent County,372,3.8,1.3,0.9
+Providence County,373,4.4,1,1.1
+Washington County,374,2.9,0.7,0.9
+Aiken County,375,4.9,1.2,1
+Anderson County,376,4.1,2.2,1.8
+Beaufort County,377,2.3,1.1,0.9
+Berkeley County,378,4.3,1.3,1.7
+Charleston County,379,2.7,1,0.7
+Dorchester County,380,3.3,1,1.7
+Greenville County,381,3.7,0.9,1.3
+Horry County,382,3.2,0.8,0.7
+Lexington County,383,3.4,1.6,1.5
+Richland County,384,4.3,1.1,1.4
+Spartanburg County,385,4.8,1.3,1.7
+York County,386,3.9,1.1,1
+Minnehaha County,387,2.4,1,1
+Davidson County,388,4.2,0.8,0.9
+Hamilton County,389,3.9,1.1,1
+Knox County,390,3.6,1.1,0.7
+Montgomery County,391,3.8,1.2,1.4
+Rutherford County,392,4.5,1.1,1.1
+Shelby County,393,6.2,1,1.1
+Sullivan County,394,3.2,1.9,1.3
+Sumner County,395,4.2,1.5,1.2
+Williamson County,396,1.9,0.4,0.3
+Wilson County,397,3,0.9,0.8
+Bell County,398,3.8,0.9,1.4
+Bexar County,399,5,1.4,1.9
+Brazoria County,400,3.7,1.4,1.6
+Brazos County,401,2.3,0.6,1.4
+Cameron County,402,6.1,1.9,2.3
+Collin County,403,3,0.6,0.5
+Comal County,404,2.9,0.9,1.5
+Dallas County,405,5.7,1.4,1.3
+Denton County,406,3.2,0.7,0.7
+Ellis County,407,5.8,1,1.9
+El Paso County,408,5.9,1.6,2
+Fort Bend County,409,3.7,0.9,1
+Galveston County,410,3.4,1.3,1.2
+Guadalupe County,411,3.6,1.1,1.3
+Harris County,412,4.6,1.3,1.5
+Hays County,413,3.6,0.8,1
+Hidalgo County,414,6.1,1.9,2.7
+Jefferson County,415,5.4,2.1,2.3
+Johnson County,416,5.1,1.3,1.3
+Lubbock County,417,4.4,1.3,1.6
+McLennan County,418,3.7,1.2,1
+Montgomery County,419,3.6,1,1.2
+Nueces County,420,5.1,1.6,1.5
+Parker County,421,5.1,0.8,1.5
+Randall County,422,4,1,1.7
+Smith County,423,4.5,1.3,1.1
+Tarrant County,424,4.4,1,1.1
+Travis County,425,2.6,0.6,0.5
+Webb County,426,9.5,3,3.3
+Williamson County,427,3.3,0.8,0.7
+Davis County,428,2.3,0.4,0.8
+Salt Lake County,429,2.6,0.5,0.7
+Utah County,430,2,0.6,0.6
+Washington County,431,2,0.7,0.6
+Weber County,432,2.7,1.2,0.8
+Chittenden County,433,2,1,0.4
+Arlington County,434,1.2,0.3,0.3
+Chesterfield County,435,3,0.9,0.8
+Fairfax County,436,1.8,0.3,0.3
+Hanover County,437,2.1,0.8,1
+Henrico County,438,3.2,1.1,1
+Loudoun County,439,2.3,0.3,0.3
+Prince William County,440,3.5,0.7,0.9
+Spotsylvania County,441,3.6,1,1.5
+Stafford County,442,2.9,0.7,0.8
+Alexandria city,443,1.8,0.3,0.6
+Chesapeake city,444,2.9,0.9,1.1
+Hampton city,445,3.4,1.1,1.6
+Newport News city,446,3,1.1,1.1
+Norfolk city,447,4.6,1.2,1.3
+Richmond city,448,4.4,0.9,0.4
+Virginia Beach city,449,2.6,1.1,0.7
+Benton County,450,2.4,0.5,0.7
+Clark County,451,2,0.4,0.3
+King County,452,1.6,0.3,0.3
+Kitsap County,453,1.7,0.2,0.4
+Pierce County,454,2.8,0.6,0.6
+Snohomish County,455,1.7,0.4,0.4
+Spokane County,456,2.2,0.5,0.5
+Thurston County,457,1.8,0.5,0.3
+Whatcom County,458,1.7,0.6,0.3
+Yakima County,459,3.1,0.8,1
+Berkeley County,460,4.4,1.5,1.6
+Kanawha County,461,3.8,1.7,2.2
+Brown County,462,2.2,0.7,0.4
+Dane County,463,1.2,0.4,0.5
+Kenosha County,464,3.6,0.7,0.7
+Milwaukee County,465,3.4,1,0.9
+Outagamie County,466,1.6,0.6,0.2
+Racine County,467,2.8,0.9,1.1
+Rock County,468,3.4,0.8,1
+Washington County,469,1.4,0.5,0.1
+Waukesha County,470,1.8,0.3,0.4
+Winnebago County,471,2.1,0.9,0.4
