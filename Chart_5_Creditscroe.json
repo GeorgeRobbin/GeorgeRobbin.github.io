@@ -10,8 +10,8 @@
   "height": 300,
   
   "title": {
-    "text": " US Mortgage oriantations by Credit Scores",
-    "subtitle": "Biilion Dollars. 2003-2021. Source: Federal Reserve Bank of New York",
+    "text": " US Mortgage oriantations by Credit Scores*",
+    "subtitle": "Biilion Dollars. 2003-2021. Source: Federal Reserve Bank of New York. *Credit Score is Equifax Riskscore 3.0",
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
     "anchor": "start",
