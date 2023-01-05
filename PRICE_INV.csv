@@ -1,4 +1,4 @@
-,2022-07-01,2022-07-01
+state,inv,price
  Vermont,1404.0,728.46
  Rhode Island,1503.0,838.45
  Alaska,1798.0,422.26
@@ -48,6 +48,3 @@
  California,59353.0,919.15
  Texas,68750.0,503.98
  Florida,73912.0,768.06
- North Dakota,,455.99
- the New England Census Division,,872.71
- the District of Columbia,,1096.98
