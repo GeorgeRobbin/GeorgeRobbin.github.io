@@ -1,0 +1,67 @@
+{ "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+    "text": "Home supply Vs. Home price Growth",
+    "subtitle":"Total supply of new Houses (Months), % change in S&P/Case-Shiller U.S. National Home Price Index.",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start",
+    "color": "black"
+  },
+
+  "data": {"url": "https://raw.githubusercontent.com/GeorgeRobbin/GeorgeRobbin.github.io/main/chart6.csv"},
+
+   
+  "height": 320,
+  "width": 500,
+
+"layer":[{
+  "mark": {
+    "type":"circle",
+    "color":"rgb(0,47,167)",
+    "size":60},
+ 
+
+  "encoding": {
+    "x": {
+      "field": "supply", 
+      "type": "quantitative",
+      "title":null
+      },
+
+    "y": {
+      "field": "price", 
+      "type": "quantitative",
+      "title":null
+      }}},
+
+    {
+      "mark": {"type": "line", "color": "firebrick"},
+      "transform": [
+        {"regression": "price", "on": "supply"}
+      ],
+      "encoding": {
+        "x": {"field": "supply", "type": "quantitative"},
+        "y": {"field": "price", "type": "quantitative"}
+      }
+    },
+    {
+      "transform": [
+        {
+          "regression": "price",
+          "on": "supply",
+          "params": true
+        },
+        {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
+      ],
+      "mark": {
+        "type": "text",
+        "color": "firebrick",
+        "x": "width",
+        "align": "right",
+        "y": -5
+      },
+      "encoding": {"text": {"type": "nominal", "field": "R2"}}
+    }
+]
+}
