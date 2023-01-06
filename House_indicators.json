@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "The population of the German city of Falkensee over time",
+  "description": "The",
   "width": 600,
   "data": { "url": "https://raw.githubusercontent.com/GeorgeRobbin/GeorgeRobbin.github.io/main/HPI_Rebasing%20(1).csv"
 
