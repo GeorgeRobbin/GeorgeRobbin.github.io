@@ -1,0 +1,54 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "The population of the German city of Falkensee over time",
+  "width": 600,
+  "data": { "url": "https://raw.githubusercontent.com/GeorgeRobbin/GeorgeRobbin.github.io/main/HPI_Rebasing%20(1).csv"
+
+  },
+  "layer": [
+    {
+      "mark": "rect",
+      "data": {
+        "values": [
+          {"start": "1998/03","end": "1999/12","c": "rgba(224, 224, 224, 0.79)"},
+          {"start": "1999/12","end": "2001/09","c": "rgba(189, 189, 189, 0.8)"},
+          {"start": "2001/09","end": "2007/03","c": "rgba(158, 158, 158, 0.76)"},
+          {"start": "2007/03","end": "2007/09","c": "rgba(189, 189, 189, 0.8"},
+          {"start": "2007/09","end": "2007/12","c": "rgba(224, 224, 224, 0.79)"},
+          {"start": "2020/06","end": "2020/09","c": "rgba(224, 224, 224, 0.79)"},
+          {"start": "2020/09","end": "2022/03","c": "rgba(189, 189, 189, 0.8)"},
+          {"start": "2022/09","end": "2022/03","c": "rgba(189, 189, 189, 0.8)"}
+
+          
+        ]
+      },
+      "encoding": {
+        "x": {"field": "start","timeUnit": "yearmonth"},
+        "x2": {"field": "end","timeUnit": "yearmonth"},
+        "color": {"field": "c", "scale":null}
+      }
+    },
+    
+    {
+  
+      "mark": "line",
+      "transform": [
+      {"calculate": "datum.HPI/96.96273758*100", "as": "HPI index"},
+      {"calculate": "datum.HPI_Rent/96.5745256*100", "as": "HPI/Rent index"},
+      {"calculate": "datum.HPI_Income/97.65085836*100", "as": "HPI/Income index"}],
+
+      "encoding": {
+        "x": {
+          "field": "date",
+          "timeUnit": "yearmonth",
+          "title": "year (year)"
+        },
+        "y":{ 
+        "field": "HPI/Income index",
+        "type": "quantitative",
+        "scale":{"domain":[50, 135]},
+          }
+        }
+      }
+  ]
+}
