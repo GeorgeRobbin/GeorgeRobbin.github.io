@@ -1,51 +1,51 @@
 Metro Area,Median Price,Affordability Index
-"San Francisco, Calif.","930,000",9.5
-"McAllen, Texas","84,250",3.3
-"Los Angeles, Calif.","710,000",8.1
-"Oxnard, Calif.","650,000",17.6
-"San Diego, Calif.","620,000",11.5
-"Honolulu, Hi.","605,000",3.3
-"Seattle, Wash.","525,000",12.8
-"Bridgeport, Conn.","460,000",13.5
-"New York, N.Y.-N.J.","450,000",9.7
-"Sacramento, Calif.","446,000",7.6
-"Boston, Mass.","444,000",6.5
-"Denver, Colo.","442,000",6.8
-"Washington, D.C.-No. Va.","435,000",8.7
-"Portland, Ore.","420,000",9.3
-"Stockton, Calif.","400,000",13.2
-"Riverside-San Bernardino, Calif.","393,000",13.4
-"Provo, Utah","385,000",6.3
-"Colorado Springs, Colo.","345,000",11.2
-"Modesto, Calif.","345,000",14.7
-"Austin, Texas","340,000",9.9
-"Phoenix, Ariz.","308,900",11.9
-"Las Vegas, Nev.","305,000",6.1
-"Miami, Fla.","302,000",9.3
-"Fresno, Calif.","299,000",12.7
-"Nashville, Tenn.","298,000",10.2
-"Raleigh, N.C.","292,000",6.8
-"Boise City, Idaho","290,450",8.8
-"Portland, Me.","290,000",7.3
-"Providence, R.I.","290,000",8.2
-"Ogden, Utah","289,500",14.5
-"Baltimore, Md.","287,500",7.4
-"Minneapolis-St. Paul, Minn.","286,000",8.2
-"Madison, Wis.","285,000",8.6
-"North Port-Sarasota, Fla.","284,900",7.1
-"Charleston, S.C.","279,000",7.8
-"Durham, N.C.","272,000",7.9
-"Orlando, Fla.","262,000",8.2
-"Worcester, Mass.","260,000",12.3
-"Richmond, Va.","257,000",10.7
-"Charlotte, N.C.","255,000",9.7
-"Chicago, Ill.","252,000",9.7
-"Atlanta, Ga.","250,000",9.5
-"Virginia Beach, Va.","250,000",9.7
-"Jacksonville, Fla.","245,000",6.8
-"Bakersfield, Calif.","245,000",12.4
-"Philadelphia, Pa.","240,000",11.0
-"Hartford, Conn.","237,500",15.2
-"New Haven, Conn.","235,150",17.1
-"Tampa, Fla.","229,900",7.1
-"Tucson, Ariz.","229,000",11.5
+"San Francisco Calif.",930000,9.5
+"McAllen Texas",84250,3.3
+"Los Angeles Calif.",710000,8.1
+"Oxnard Calif.",650000,17.6
+"San Diego Calif.",620000,11.5
+"Honolulu Hi.",605000,3.3
+"Seattle Wash.",525000,12.8
+"Bridgeport Conn.",460000,13.5
+"New York N.Y.-N.J.",450000,9.7
+"Sacramento Calif.",446000,7.6
+"Boston Mass.",444000,6.5
+"Denver Colo.",442000,6.8
+"Washington D.C.-No. Va.",435000,8.7
+"Portland Ore.",420000,9.3
+"Stockton Calif.",400000,13.2
+"Riverside-San Bernardino Calif.",393000,13.4
+"Provo Utah",385000,6.3
+"Colorado Springs Colo.",345000,11.2
+"Modesto Calif.",345000,14.7
+"Austin Texas",340000,9.9
+"Phoenix Ariz.","08900,11.9
+"Las Vegas Nev.",305000,6.1
+"Miami Fla.",302000,9.3
+"Fresno Calif.",299000,12.7
+"Nashville Tenn.",298000,10.2
+"Raleigh N.C.",292000,6.8
+"Boise City Idaho",290450,8.8
+"Portland Me.",290000,7.3
+"Providence R.I.",290,000,8.2
+"Ogden Utah",289500,14.5
+"Baltimore Md.",287500,7.4
+"Minneapolis-St. Paul Minn.",286000,8.2
+"Madison Wis.",285000,8.6
+"North Port-Sarasota Fla.",284900,7.1
+"Charleston S.C.",279000,7.8
+"Durham N.C.",272000,7.9
+"Orlando Fla.",262000,8.2
+"Worcester Mass.",260000,12.3
+"Richmond Va.",257000,10.7
+"Charlotte N.C.",255000,9.7
+"Chicago Ill.",252000,9.7
+"Atlanta Ga.",250000,9.5
+"Virginia Beach Va.",250000,9.7
+"Jacksonville Fla.",245000,6.8
+"Bakersfield Calif.",245000,12.4
+"Philadelphia Pa.",240000,11.0
+"Hartford Conn.",237500,15.2
+"New Haven Conn.",235150,17.1
+"Tampa Fla.",229900,7.1
+"Tucson Ariz.",229000,11.5
