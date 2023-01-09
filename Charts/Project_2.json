@@ -105,7 +105,7 @@
         "datum": {"repeat": "layer"},
         "scale": {
           "range": [
-            "#EFF9BD",
+            "#9DD8B8",
             "#34A4C1",
             "#1C3185"
           ]
