@@ -1,55 +1,97 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
-  "data": {"url": "https://app.sportdataapi.com/api/v1/soccer/matches?apikey=b8bb8050-f3d3-11eb-808b-334144de1112&season_id=1980",
-  "format":{
-    "type": "json",
-    "property": "data"}},
 
-    "title": {
-    "text": "Premiership - home advantage?",
-    "subtitle":["Cumulative goals scored by home and away teams",""],
-    "subtitleFontStyle":"italic",
-    "subtitleFontSize":10,
-    "anchor": "start",
-    "color": "black"
+ "title": {
+  "text": "Bitcoin: long run",
+  "subtitle":"Daily BTC price in USD. Source: Coinbase via FRED",
+  "subtitleFontStyle":"italic",
+  "subtitleFontSize":10,
+  "anchor": "start",
+  "color": "#179fdb",
+  "subtitleColor":"#179fdb"},
 
-  },
+"config": {
+  "background":"#122b39",
+  "view": {
+    "stroke": "transparent"}},
+
+
+
+  "width":290,
+  "height":300,
+
+
+  "data": {
+    "name":"myData",
+    "url": "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/charts/crypto/dataFREDbtcCoinbase.csv"},
+
+
+  "mark": {
+  "type": "line",
+  "point": false,
+  "interpolate": "linear",
+  "color":"#f4c245"
+},
+
 
   "transform": [
+    {"calculate": "timeParse(datum.DATE, '%d/%m/%Y')", "as": "date"},
+    {"calculate": "year(datum.date)", "as": "year"},
 
-    {"calculate": "now()", "as": "today"},
-    {"calculate": "datum.match_start - datum.today", "as":"futureTest"},
-    {"filter":"datum.futureTest<0"},
+    {"filter": "datum.year>=minYear"},
+    {"filter": "datum.year<=maxYear"}
+],
 
-    {"window": [
-      {"op": "sum","field": "stats.home_score", "as": "Home"},
-      {"op": "sum","field": "stats.away_score", "as": "Away"}],
-      "sort": [{"field":"match_start", "order":"ascending"}]}],
+  "params": [    
+    {"name":"minYear", "value":2016,
+       "bind":{
+         "input": "range",
+         "min": 2016, 
+         "max": 2021, 
+         "step": 1,
+         "name": "Start year:"}
+    },
 
-  "height":300,
-  "width":300,
-
-  "encoding": {"x": {"field": "match_start", "type": "temporal","title":null}},
-
-  "layer":[
-
-    {"mark": {"type":"circle", "size":100},
-
-     "encoding": {
-       "y": {"field": "Home", "type": "quantitative","title":null},
-        "color": {
-        "datum": "Home",
-            "scale": {"range": ["green", "blue"]},
-            "legend":{
-              "orient": "top-left",
-              "fillColor":"white"}}}},
+    {"name":"maxYear", "value":2021,
+       "bind":{
+         "input": "range",
+         "min": 2016, 
+         "max": 2021, 
+         "step": 1,
+         "name": "End year:"}
+    }
+  ],
 
 
-    {"mark": {"type":"circle", "size":100},
 
-     "encoding": {
-       "y": {"field": "Away", "type": "quantitative","title":null},
-      "color": {"datum": "Away"}}}
-     ]
+  "encoding": {
+    
+   
+  "x": {
+    "field": "date",
+    "type": "temporal",
+    "axis": {
+      "title": null,
+      "grid": false,
+      "labelSeparation": 10,
+      "domainColor":"dimgrey",
+      "labelColor":"#00a767",
+      "tickColor":"pink",
+      "gridColor":"dimgrey"
+    }},
+
+  "y": {
+    "field": "CBBTCUSD",
+    "type": "quantitative",
+    "title": "",
+    "axis": {
+      "grid": false,
+      "domainColor":"dimgrey",
+      "labelColor":"#00a767",
+      "tickColor":"pink",
+      "gridColor":"dimgrey",
+      "format":"$,.5"}
+      }
+   }
 }
