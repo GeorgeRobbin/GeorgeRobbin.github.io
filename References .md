@@ -6,7 +6,6 @@
 # Charts 4,5,6 - https://www.fhfa.gov/DataTools
 # Charts 7,8 - https://fred.stlouisfed.org/docs/api/fred/
 
-# Charts 4,5,6 - https://www.fhfa.gov/DataToolsLink to google colab Project page - 
 #Link to portfolio colab pages:
                          # week 4-https://colab.research.google.com/drive/1fi4Je8Z_JzKv_PaE9eyWswN9qJpkBx6F
                          # week 5 - https://colab.research.google.com/drive/1YbJZ3FJqD6mhpr5a_zeJCzwC-gsQQI1G
