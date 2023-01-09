@@ -124,7 +124,10 @@ For the first chart the fred. search function was used was used to download 52 s
         <h2 class="bodyText">Data Discussion</h2>
       </container>
       <container class="hcontainer">
-        <h3 class="bodyText"><span style="color: rgb(65, 48, 34); font-weight: 700;">These charts are both Downloaded from the FRED API in python. The data used for the regression was again downloaded using the fred.search function, then combined using pd.concat(). The last chart is downloaded as a FRED.json then implemented directly into the chart which updates with the live FRED chart.</span></h3>
+        <h3 class="bodyText"><span style="color: rgb(65, 48, 34); font-weight: 700;">The majority of the Data used in this project was taken from FRED. By installing the FRED API directly into a python workbook, I was able to simultaneously search and filter the entire FRED database for specific series. When data was not available from FRED, I used pandas to load it directly into python where I could manipulate data into desired format. The most common issue was the format of the date/time variable, which I overcame by using the PeriodIndex function. Another common issue was the format of State names, with different data sources using different formats. To overcome this, I employed dictionary that mapped column ID '0' to the state name 'Alabama' etc. 
+
+For the scraper I implemented, both columns included ‘, ‘and "" within the values which would create issues when exporting to a csv. To overcome this, I used .str replace function. Furthermore, the table contained unwanted data, so I implemented a loop that iterates through each ‘row’ in the ‘rows list’ and filtered for unwanted values.
+</span></h3>
       </container>
 
       <div class="container">
