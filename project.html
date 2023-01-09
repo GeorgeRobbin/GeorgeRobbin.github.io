@@ -58,7 +58,8 @@
     <container class="hcontainer">
       <h3 class="bodyText"><span style="color: rgb(65, 48, 34); font-weight: 700;">Following the pandemic, low interest rates and limited supply of new housing contributed to substantial increases in the price of housing in the US, experiencing double-digit growth every month from August 2020 through till July 2022. Despite the signs of a bubble waning, the question still stands about what will happen next.
 
-        This project presents data on key market determinants, namely house prices, mortgages and housing supply to build a picture of the current state of the US real estate market. Within these visualisations, I also aim to build a comparison between current day statistics and data from 2008 when the US real estate market crashed.
+This project presents data on key market determinants, namely house prices, mortgages, and housing supply to build a picture of the current state of the US real estate market. Within these visualisations, I also aim to build a comparison between current day statistics and data from 2008 when the US real estate market crashed.
+
         </span></h3>
       <p class="bodyText"> </p>
     </container>
@@ -75,7 +76,10 @@
       </div>
       </container>
       <container class="hcontainer">
-      <h3 class="bodyText"><span style="color: rgb(65, 48, 34); font-weight: 700;">Decades of low intrest rates and a pandemic that left people wanting more space have both contributed to massive increases in House Prices in the US. No other areas feel this increase greater than metro areas, with most cities included in chart 3 ranking 10+ on the affordability index. Following the trends in the data, we wouldent expect this increase to continue to the extennt it has in 2023, a key factor why is the increase in mortgage rates.</span></h3>
+      <h3 class="bodyText"><span style="color: rgb(65, 48, 34); font-weight: 700;">Decades of low interest rates and a pandemic that left people wanting more space  have both contributed to massive increases in House Prices in the US. No other areas feel this increase greater than metro areas, with most cities included in chart 3 ranking 10+ on the affordability index. Following the trends in the data, we wouldn’t expect this increase to continue to the extent it has in 2023, a key factor why is the increase in mortgage rates.
+
+For the first chart the fred. search function was used was used to download 52 series from the FRED API which were then cleaned and reshaped into a df, and directly plotted using plotly. For the second chart, Data was downloaded into python using the panda’s database, then then reshaped to fit the correct format, and rebased in Vega-lite to illustrate quick comparison between the three indexes. Finally, the third chart was created using the Beautiful soup scraper in python, which I then created a loop to filter for the wanted columns and set these to corresponding index values in a df.
+</span></h3>
       </container>
 
       <container class="hcontainer">
@@ -89,7 +93,7 @@
         </div>
       </container>
       <container class="hcontainer">
-        <h3 class="bodyText"><span style="color: rgb(65, 48, 34); font-weight: 700;">The first chart here illustartes that mortgage rates are rising and also the hilights the relationship between mortgage rates and house prices. As mortgage rates climb, it becomes harder to finance a home purchase. Chart 2 builds on this presenting a heatmap of Debt-to-Income ratio from 2008 and 2022. We can see that despite higher mortgage rates, debt levels remain lower. One suggestion as to why is shown in chart 3, illustrating that those with lower credit scores have almost been excluded from getting mortages since 2008.</span></h3>
+        <h3 class="bodyText"><span style="color: rgb(65, 48, 34); font-weight: 700;">The first chart here illustrates that mortgage rates are rising and the highlights the relationship between mortgage rates and house prices. As mortgage rates climb, it becomes harder to finance a home purchase. Chart 2 builds on this presenting a heatmap of Debt-to-Income ratio from 2008 and 2022. We can see that despite higher mortgage rates, debt levels remain lower which is also echoed in foreclosure statistics. One suggestion as to why is shown in chart 3, illustrating that those with lower credit scores have almost been excluded from getting mortgages since 2008. All three charts are Downloaded from the Federal Housing Finance Agency. </span></h3>
           </span></h3>
       </container>
 
@@ -103,14 +107,14 @@
           </div>
       </container>
       <container class="hcontainer">
-        <h3 class="bodyText"><span style="color: rgb(65, 48, 34); font-weight: 700;">The housing shortage has led to a decline in demand for homes due to increasing mortgage rates making them unaffordable at current prices. The current 'months supply' measure is at 4.0 which when compared to 11.0 in 2008 is considered very tight, suggesting prices may continue to rise.</span></h3>
+        <h3 class="bodyText"><span style="color: rgb(65, 48, 34); font-weight: 700;">The housing shortage has led to a decline in demand for homes due to increasing mortgage rates making them unaffordable at current prices. The current 'months supply' measure is at 4.0 which when compared to 11.0 in 2008 is considered very tight, suggesting prices may continue to rise. These charts are both Downloaded from the FRED API in python. The data used for the regression was again downloaded using the fred.search function, then combined using pd.concat(). The last chart is downloaded as a FRED.json then implemented directly into the chart which updates with the live FRED chart.</span></h3>
       </container>
 
       <container class="hcontainer3">
         <h2 class="bodyText">Conclusions</h2>
       </container>
       <container class="hcontainer">
-        <h3 class="bodyText"><span style="color: rgb(65, 48, 34); font-weight: 700;">In comparison to the 2008 crash, lower level's of supply and stricter borrowing conditon's means the housing market is unlikely to crash anytime soon. Furthermore despite higher mortgage rates, Forclosure acticty is at an all time low suggestinng most homeowners have a comfterble equity cushion in their homes. Ongoing lack of inventory stemming from the pandemic also helps explain the huge inncreases in house prices, with major Cities experiencing this more than any other areas. </h3>
+        <h3 class="bodyText"><span style="color: rgb(65, 48, 34); font-weight: 700;">In comparison to the 2008 crash, lower levels of supply and stricter borrowing condition’s means the housing market is unlikely to crash anytime soon. Furthermore, despite higher mortgage rates, Foreclosure activity is at an all-time low suggesting most homeowners have a comfterble equity cushion in their homes. Ongoing lack of inventory stemming from the pandemic also helps explain the huge increases in house prices, with major Cities experiencing this more than any other areas. </h3>
       </container>
 
 
@@ -120,7 +124,7 @@
         <h2 class="bodyText">Data Discussion</h2>
       </container>
       <container class="hcontainer">
-        <h3 class="bodyText"><span style="color: rgb(65, 48, 34); font-weight: 700;">The majority of the Data used in this project was taken from FRED. By installing the FRED API directly into a python workbook, i was able to simultaneosuly search and filter the entire FRED database for specific series. When data was not available from FRED, I used pandas to load it directly into python where i could manipulate data into desired format. The most common issue was the format of the date/time variable, which i overcame by using the PeriodIndex function. Another common issue was the format of State names, with diffrennt data sources usinng different formats. To overcome this i employed dictionary that mapped column ID '0' to the state name 'Alabama' etc. For the scraper i implemented, both columns included , and "" within the values which would create issues when exporting the scraped data to a csv. To overcome this i used .str replace function. </span></h3>
+        <h3 class="bodyText"><span style="color: rgb(65, 48, 34); font-weight: 700;">These charts are both Downloaded from the FRED API in python. The data used for the regression was again downloaded using the fred.search function, then combined using pd.concat(). The last chart is downloaded as a FRED.json then implemented directly into the chart which updates with the live FRED chart.</span></h3>
       </container>
 
       <div class="container">
