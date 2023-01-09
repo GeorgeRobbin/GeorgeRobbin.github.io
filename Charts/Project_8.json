@@ -30,7 +30,7 @@
         "gradient": "linear",
         "stops": [
           {"offset": 0, "color": "white"},
-          {"offset": 1, "color": "#9affa7"}
+          {"offset": 1, "color": "#1c3185"}
         ]
       }
     },
