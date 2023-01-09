@@ -105,9 +105,9 @@
         "datum": {"repeat": "layer"},
         "scale": {
           "range": [
-            "green",
-            "blue",
-            "red"
+            "#EFF9BD",
+            "#34A4C1",
+            "#1C3185"
           ]
         },
         "legend": {"orient": "top-left", "fillColor": "white"}
