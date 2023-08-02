@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,
     initial-scale=1.0" />
     <title>George Robbin DS</title>
-    <link rel="stylesheet" href="project.css"/>
+    <link rel="stylesheet" href="styles.css"/>
     <script src="https://kit.fontawesome.com/7ee2706f3a.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
@@ -14,59 +14,52 @@
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
     </head>
     <body>
-      <!--Navbar section-->
-      <nav class="navbar">
-        <div class="navbar__container">
-          <a href="/" id="navbar__logo"><i class="fa-solid fa-database"></i>GR Data Science</a>
-          <div class="navbar__toggle" id="mobile-menu">
-           <span class="bar"></span>
-           <span class="bar"></span>
-           <span class="bar"></span>
-        </div>
-        <ul class="navbar__menu">
-          <li class="navbar__item">
-            <a href="index.html" class="navbar__links">Home </a>
-            </li>
-          <li class="navbar__item">
-            <a href="portfolio.html" class="navbar__links">Portfolio </a>
-            </li>
-            <li class="navbar__item">
-              <a href="https://rapidcharts.io/datascience" class="navbar__links">Data Science course</a>
-              </li>
-                <li class="navbar__item">
-                  <a href="https://github.com/GeorgeRobbin/GeorgeRobbin.github.io" class="navbar__links">Github repository</a>
-                  </li>
+<!--Navbar section-->
+      <section class="project-header">
+        <nav>
+            <a href="index.html"><img src ="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="portfolio2.html">PORTFOLIO</a></li>
+                    <li><a href="project.html">PROJECT 1</a></li>
+                    <li><a href="nhs.html">PROJECT 2</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
 
-          </ul>
-        </div>
-      </nav>
+    
+            <h1>Analysis of the US Housing Market</h1>
 
-<!--PROJECT HEADER--->
-    <div class="header">
-      <div class="header__container">
-        <div class="header__content">
-          <h1>A Big Short V2?</h1>
-          <p>Analysis of the US Housing Market<p2>
-        </div>
-        <div class="header__img--container">
-          <img src="images/project.jpeg" alt="pic" id="header__img">
-        </div>
-    </div>
-  </div>
+    </section>
+
+<!--Project titlw-->
+
+    <section class="course-content">
+
+      <div class="row">
+          <div class="course-col">
+              <h1>A BIG SHORT ROUND 2?</h1>
+              <p>Following the pandemic, low interest rates and limited supply of new housing contributed to substantial increases in the price of housing in the US, experiencing double-digit growth every month from August 2020 through till July 2022. Despite the signs of a bubble waning, the question still stands about what will happen next.
+
+                This project presents data on key market determinants, namely house prices, mortgages and housing supply to build a picture of the current state of the US real estate market. Within these visualisations, I also aim to build a comparison between current day statistics and data from 2008 when the US real estate market crashed.</p>
+              <!--<a href="https://rapidcharts.io/datascience" class="hero-btn red-btn">EXPLORE THE COURSE</a> -->
+          </div>
+          <div class="course-col">
+              <img src="images/project.jpeg">
+          </div>
+      </div>
+  </section>
+    
+
+
 
 <!--PROJECT --->
-    <container class="hcontainer">
-      <h3 class="bodyText"><span style="color: rgb(65, 48, 34); font-weight: 700;">Following the pandemic, low interest rates and limited supply of new housing contributed to substantial increases in the price of housing in the US, experiencing double-digit growth every month from August 2020 through till July 2022. Despite the signs of a bubble waning, the question still stands about what will happen next.
-
-This project presents data on key market determinants, namely house prices, mortgages, and housing supply to build a picture of the current state of the US real estate market. Within these visualisations, I also aim to build a comparison between current day statistics and data from 2008 when the US real estate market crashed.
-
-        </span></h3>
-      <p class="bodyText"> </p>
-    </container>
-
 
     <container class="hcontainer">
-      <h2 class="bodyText">House Prices</h2>
+      <h3 class="bodyText">House Prices</h3>
     </container>
     <container class="hcontainer3" id="container2">
       <div class="box" id="#p1">
@@ -74,16 +67,11 @@ This project presents data on key market determinants, namely house prices, mort
        <div class="chart" id="Chartp2"></div>
        <div class="chart" id="Chartp1"></div>
       </div>
-      </container>
-      <container class="hcontainer">
-      <h3 class="bodyText"><span style="color: rgb(65, 48, 34); font-weight: 700;">Decades of low interest rates and a pandemic that left people wanting more space  have both contributed to massive increases in House Prices in the US. No other areas feel this increase greater than metro areas, with most cities included in chart 3 ranking 10+ on the affordability index. Following the trends in the data, we wouldn’t expect this increase to continue to the extent it has in 2023, a key factor why is the increase in mortgage rates.
-
-For the first chart the fred. search function was used was used to download 52 series from the FRED API which were then cleaned and reshaped into a df, and directly plotted using plotly. For the second chart, Data was downloaded into python using the panda’s database, then then reshaped to fit the correct format, and rebased in Vega-lite to illustrate quick comparison between the three indexes. Finally, the third chart was created using the Beautiful soup scraper in python, which I then created a loop to filter for the wanted columns and set these to corresponding index values in a df.
-</span></h3>
-      </container>
+      <p>Decades of low intrest rates and a pandemic that left people wanting more space have both contributed to massive increases in House Prices in the US. Following the trends in the data, we wouldent expect this increase to continue to the extennt it has in 2023, a key factor why is the increase in mortgage rates.</p>
+     </container>
 
       <container class="hcontainer">
-        <h2 class="bodyText">Mortgages</h2>
+        <h3 class="bodyText">Mortgages</h3>
       </container>
       <container class="hcontainer3" id="container2">
         <div class="box" id="#p2">
@@ -91,64 +79,48 @@ For the first chart the fred. search function was used was used to download 52 s
          <div class="chart" id="Chartp5"></div>
          <div class="chart" id="Chartp4"></div>
         </div>
-      </container>
-      <container class="hcontainer">
-        <h3 class="bodyText"><span style="color: rgb(65, 48, 34); font-weight: 700;">The first chart here illustrates that mortgage rates are rising and the highlights the relationship between mortgage rates and house prices. As mortgage rates climb, it becomes harder to finance a home purchase. Chart 2 builds on this presenting a heatmap of Debt-to-Income ratio from 2008 and 2022. We can see that despite higher mortgage rates, debt levels remain lower which is also echoed in foreclosure statistics. One suggestion as to why is shown in chart 3, illustrating that those with lower credit scores have almost been excluded from getting mortgages since 2008. All three charts are Downloaded from the Federal Housing Finance Agency. </span></h3>
-          </span></h3>
+        <p>The first chart here illustartes that mortgage rates are rising and also the hilights the relationship between mortgage rates and house prices. As mortgage rates climb, it becomes harder to finance a home purchase. Chart 2 builds on this presenting a heatmap of Debt-to-Income ratio from 2008 and 2022. We can see that despite higher mortgage rates, debt levels remain lower. One suggestion as to why is shown in chart 3, illustrating that those with lower credit scores have almost been excluded from getting mortages since 2008.</span></h3>
       </container>
 
       <container class="hcontainer">
-        <h2 class="bodyText">House Supply</h2>
+        <h3 class="bodyText">House Supply</h3>
       </container>
       <container class="hcontainer3" id="container2">
           <div class="box" id="#p3">
            <div class="chart" id="Chartp7"></div>
            <div class="chart" id="Chartp8"></div>
           </div>
-      </container>
-      <container class="hcontainer">
-        <h3 class="bodyText"><span style="color: rgb(65, 48, 34); font-weight: 700;">The housing shortage has led to a decline in demand for homes due to increasing mortgage rates making them unaffordable at current prices. The current 'months supply' measure is at 4.0 which when compared to 11.0 in 2008 is considered very tight, suggesting prices may continue to rise. These charts are both Downloaded from the FRED API in python. The data used for the regression was again downloaded using the fred.search function, then combined using pd.concat(). The last chart is downloaded as a FRED.json then implemented directly into the chart which updates with the live FRED chart.</span></h3>
+        <p>The housing shortage has led to a decline in demand for homes due to increasing mortgage rates making them unaffordable at current prices. The current 'months supply' measure is at 4.0 which when compared to 11.0 in 2008 is considered very tight, suggesting prices may continue to rise.</p>
       </container>
 
       <container class="hcontainer3">
         <h2 class="bodyText">Conclusions</h2>
       </container>
       <container class="hcontainer">
-        <h3 class="bodyText"><span style="color: rgb(65, 48, 34); font-weight: 700;">In comparison to the 2008 crash, lower levels of supply and stricter borrowing condition’s means the housing market is unlikely to crash anytime soon. Furthermore, despite higher mortgage rates, Foreclosure activity is at an all-time low suggesting most homeowners have a comfterble equity cushion in their homes. Ongoing lack of inventory stemming from the pandemic also helps explain the huge increases in house prices, with major Cities experiencing this more than any other areas. </h3>
+        <p >In comparison to the 2008 crash, lower level's of supply and stricter borrowing conditon's means the housing market is unlikely to crash anytime soon, much to the annoyance of michael burry. </p>
       </container>
-
-
-    
 
       <container class="hcontainer3">
-        <h2 class="bodyText">Data Discussion</h2>
+        <h3 class="bodyText">Data Discussion</h3>
       </container>
       <container class="hcontainer">
-        <h3 class="bodyText"><span style="color: rgb(65, 48, 34); font-weight: 700;">The majority of the Data used in this project was taken from FRED. By installing the FRED API directly into a python workbook, I was able to simultaneously search and filter the entire FRED database for specific series. When data was not available from FRED, I used pandas to load it directly into python where I could manipulate data into desired format. The most common issue was the format of the date/time variable, which I overcame by using the PeriodIndex function. Another common issue was the format of State names, with different data sources using different formats. To overcome this, I employed dictionary that mapped column ID '0' to the state name 'Alabama' etc. 
-
-For the scraper I implemented, both columns included ‘, ‘and "" within the values which would create issues when exporting to a csv. To overcome this, I used .str replace function. Furthermore, the table contained unwanted data, so I implemented a loop that iterates through each ‘row’ in the ‘rows list’ and filtered for unwanted values.
-</span></h3>
+        <p>The majority of the Data used in this project was taken from FRED. By installing the FRED API directly into a python workbook, i was able to simultaneosuly search and filter the entire FRED database for specific series. When data was not available from FRED, I used pandas to load it directly into python where i could manipulate data into desired format. The most common issue was the format of the date/time variable, which i overcame by using the PeriodIndex function. Another common issue was the format of State names, with diffrennt data sources usinng different formats. To overcome this i employed dictionary that mapped column ID '0' to the state name 'Alabama' etc. For the scraper i implemented, both columns included , and "" within the values which would create issues when exporting the scraped data to a csv. To overcome this i used .str replace function.</p>
       </container>
 
-      <div class="container">
-        <div class="row">
-          <a href="https://colab.research.google.com/drive/1MPTKjs8BfwQ63NAlvRgzEOypZN8whhQy?usp=sharing"><div class="card rgb">
-            <div class="card-image"></div>
-            <div class="card-text">
-             <h2>Google Colab</h2>
-              <p>View Google Colab which contains all python code used for this project.
-              </p>
+
+      <div class="row-project">
+        <div class="project-col">
+            <img src="images/python_logo.jj.webp">
+            <div class="layer">
+                <a href="https://colab.research.google.com/drive/1MPTKjs8BfwQ63NAlvRgzEOypZN8whhQy?usp=sharing"><h3>GOOGLE COLAB</h3></a>
             </div>
-          </div></a>
-         <a href="https://fred.stlouisfed.org/docs/api/fred/"> <div class="card rgb">
-            <div class="card-image card2"></div>
-            <div class="card-text card2">
-              <h2>Fred API</h2>
-              <p>View Fred API.</p>
-           </div>
-         </div></a>
-      </div>
-    </div>
+        </div> 
+        <div class="project-col">
+            <img src="images/FRED_logo.5a57f425.jpg">
+            <div class="layer">
+                <a href="https://fred.stlouisfed.org/docs/api/fred/"><h3>FRED API</h3></a>
+            </div>
+        </div> 
 
 </body>
     <script type="text/javascript">
